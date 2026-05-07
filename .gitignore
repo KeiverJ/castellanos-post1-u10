@@ -1,0 +1,31 @@
+# Artefactos de compilación Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VS Code Java
+.classpath
+.project
+.settings/
+.factorypath
+.vscode/
+
+# Sistema operativo Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs
+*.log
+logs/
+
+# Spring Boot devtools
+.spring-boot-devtools.properties
