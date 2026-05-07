@@ -133,7 +133,7 @@ target/site/jacoco/index.html
 | `listarTodas_conRegistros_retornaListaCompleta`         | Hay registros     | Retorna lista completa                                         |
 | `listarPorEstado_pendientes_retornaTareasPendientes`    | Filtro pendientes | Retorna solo tareas no completadas                             |
 
-**Total: 9 tests ✅**
+**Total: 9 tests**
 
 ---
 
@@ -151,7 +151,7 @@ target/site/jacoco/index.html
 | `completar_tareaExiste_retorna200ConCompletadaTrue` | `PATCH /api/tareas/1/completar`  | Tarea existe    | 200 + `completada=true` |
 | `completar_tareaNoExiste_retorna404`                | `PATCH /api/tareas/99/completar` | Tarea no existe | 404                     |
 
-**Total: 7 tests ✅**
+**Total: 7 tests**
 
 ---
 
@@ -168,7 +168,7 @@ target/site/jacoco/index.html
 | `save_nuevaTarea_persisteConIdAsignado`           | Nueva tarea      | Id autogenerado no nulo          |
 | `findAll_conRegistros_retornaTodasLasTareas`      | BD con registros | Lista no vacía                   |
 
-**Total: 6 tests ✅**
+**Total: 6 tests**
 
 ---
 
